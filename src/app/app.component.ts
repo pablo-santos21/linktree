@@ -7,7 +7,7 @@ import { ClipboardService } from 'ngx-clipboard';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'lintree-clone';
+  title = 'My links';
   constructor(private _clipboardService: ClipboardService) {}
 
   callServiceToCopy() {
