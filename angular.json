@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lintree-clone:build:production"
+              "buildTarget": "lintree-clone:build:production"
             },
             "development": {
-              "browserTarget": "lintree-clone:build:development"
+              "buildTarget": "lintree-clone:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lintree-clone:build"
+            "buildTarget": "lintree-clone:build"
           }
         },
         "test": {
